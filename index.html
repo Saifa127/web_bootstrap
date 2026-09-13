@@ -1,107 +1,224 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Index</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Index</title>
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 </head>
+
 <body>
-     <div id="menu-container"></div>
+  <div id="menu-container"></div>
 
-
-
-<div class="container">
-  <h3 class="alert alert-success mt-4 bg-info text-center">หน้าหลัก</h3>
-
-
-  <div class="alert alert-primary text-center" role="alert ">
-  saifa tobsri
-</div>
-
-
-<div class="text end">
-<a class="btn btn-info" href="//www.google.com/">Google</a>
-</div> <br>
-
-
-<div class="container text-center">
-  <div class="row">
-     <div class="col-sm-4 "style="background-color:rgb(238, 130, 238);"rgb(60, 179, 113)>
-     
-    <img src="image/ลิง2.jpg" width= "100%">
-    <h1>ลิงน่ารัก</h1>
+  <div id="carouselExampleIndicators" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+        aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+        aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+        aria-label="Slide 3"></button>
     </div>
-     <div class="col-sm-4 bg-success-subtle">
-      
-      <img src="image/cat.jpg" width="100%">
-     <h1>แมวน่ารัก</h1>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="image/bannervespa4.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image/bannergiono.jpg" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="image/bannerwave.jpg" class="d-block w-100" alt="...">
+      </div>
     </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+  <div class="container">
+
+    <div class="px-4 py-5 my-5 text-center">
+      <img class="d-block mx-auto mb-4" src="image/ลิง3.jpg" alt="" width="72" height="57">
+      <h1 class="display-5 fw-bold text-body-emphasis">Centered hero</h1>
+      <div class="col-lg-6 mx-auto">
+        <p class="lead mb-4">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s most
+          popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid system, extensive
+          prebuilt components, and powerful JavaScript plugins.</p>
+        <div class="d-grid gap-2 d-sm-flex justify-content-sm-center"> <button type="button"
+            class="btn btn-primary btn-lg px-4 gap-3">Primary button</button> <button type="button"
+            class="btn btn-outline-secondary btn-lg px-4">Secondary</button> </div>
+      </div>
+      <div class="row">
+
+        <div class="col-sm-3 p-3">
+
+          <img src="image/เวฟ1.jpg" class="img-fluid rounded"> <br>
+          <h4>WAVE110i</h4>
+          <p>ราคา <span class="text-danger">60000 </span>บาท</p>
+          <a class="btn btn-primary" href="#" role="button"> <i class="bi bi-cart-plus"></i>Add</a>
+        </div>
+
+        <div class="col-sm-3 p-3">
+          <img src="image/เวฟป้า2.jpg" class="img-fluid rounded"> <br>
+          <h2>Vespa 150</h2>
+          <p>ราคา <span class="text-danger">145000 </span>บาท</p>
+          <a class="btn btn-primary" href="#" role="button"> <i class="bi bi-cart-plus"></i>Add</a>
+        </div>
+
+        <div class="col-sm-3 p-3">
+          <img src="image/vespa5.jpg" class="img-fluid rounded"> <br>
+          <h2>Vespa sprint s150</h2>
+          <p>ราคา <span class="text-danger">159000 </span>บาท</p>
+          <a class="btn btn-primary" href="#" role="button"> <i class="bi bi-cart-plus"></i>Add</a>
+        </div>
+
+        <div class="col-sm-3 p-3 ">
+          <img src="image/ลีด2.jpg" class="img-fluid rounded"> <br>
+          <h2>LEAD125</h2>
+          <p>ราคา <span class="text-danger">59000 </span>บาท</p>
+          <a class="btn btn-primary" href="#" role="button"> <i class="bi bi-cart-plus"></i>Add</a>
+        </div>
+      </div>
+    </div>
+    <div class="container px-4 py-5" id="featured-3">
+      <h2 class="pb-2 border-bottom">Columns with icons</h2>
+      <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg class="bi" width="1em" height="1em" aria-hidden="true">
+              <use xlink:href="#collection"></use>
+            </svg> </div>
+          <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+            probably just keep going until we run out of words.</p> <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi" aria-hidden="true">
+              <use xlink:href="#chevron-right"></use>
+            </svg> </a>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg class="bi" width="1em" height="1em" aria-hidden="true">
+              <use xlink:href="#people-circle"></use>
+            </svg> </div>
+          <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+            probably just keep going until we run out of words.</p> <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi" aria-hidden="true">
+              <use xlink:href="#chevron-right"></use>
+            </svg> </a>
+        </div>
+        <div class="feature col">
+          <div
+            class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3">
+            <svg class="bi" width="1em" height="1em" aria-hidden="true">
+              <use xlink:href="#toggles2"></use>
+            </svg> </div>
+          <h3 class="fs-2 text-body-emphasis">Featured title</h3>
+          <p>Paragraph of text beneath the heading to explain the heading. We'll add onto it with another sentence and
+            probably just keep going until we run out of words.</p> <a href="#" class="icon-link">
+            Call to action
+            <svg class="bi" aria-hidden="true">
+              <use xlink:href="#chevron-right"></use>
+            </svg> </a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col-sm-4 " style="background-color:rgb(238, 130, 238);" rgb(60, 179, 113)>
+
+        <img src="image/ลิง3.jpg" width="100%">
+        <h1>ลิงน่ารัก</h1>
+      </div>
+      <div class="col-sm-4 bg-success-subtle">
+
+        <img src="image/cat.jpg" width="100%">
+        <h1>แมวน่ารัก</h1>
+      </div>
 
 
       <div class="col-sm-4 text-bg-dark">
-           <h4 class="mt-4">Register</h4>
+        <h4 class="mt-4">Register</h4>
 
-           <form class="text-start ">
+        <form class="text-start ">
 
-            <div class="mb-3">
-              <label for="exampleInputEmail1" class="form-label">Fritname</label>
-              <input type="text" class="form-control" id="Fritname" required placeholder=" Fritname">
-            </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Fritname</label>
+            <input type="text" class="form-control" id="Fritname" required placeholder=" Fritname">
+          </div>
 
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Lastname</label>
-                <input type="text" class="form-control" id="Lastname" required required placeholder=" Lastname">
-            </div>
-        
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Telephone</label>
-                <input type="tel" class="form-control" id="phone"  required required placeholder="ex. xxx-xxx-xxxx">
-            </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Lastname</label>
+            <input type="text" class="form-control" id="Lastname" required required placeholder=" Lastname">
+          </div>
 
-        <div class="mb-3">
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Telephone</label>
+            <input type="tel" class="form-control" id="phone" required required placeholder="ex. xxx-xxx-xxxx">
+          </div>
+
+          <div class="mb-3">
             <label class="form-label">Province</label>
             <select class="form-select " id="Province" required>
-                
-                <option selected>เลือกจังวัด</option>
-                <option value="1">หนองคาย</option>
-                <option value="2">ชลบุรี</option>
-                <option value="3">ระยอง</option>
-              </select>
-        </div>
 
-            <div class="mb-3">
-                <label for="exampleInputEmail1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="e-mail"  required  required required placeholder="e-mail">
-            </div>
+              <option selected>เลือกจังวัด</option>
+              <option value="1">หนองคาย</option>
+              <option value="2">ชลบุรี</option>
+              <option value="3">ระยอง</option>
+            </select>
+          </div>
 
-            <div class="mb-3">
-              <label for="exampleInputPassword1" class="form-label">Password</label>
-              <input type="password" class="form-control" id="pw" required required required placeholder="password">
-            </div>
+          <div class="mb-3">
+            <label for="exampleInputEmail1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="e-mail" required required required placeholder="e-mail">
+          </div>
 
-            <!-- <div class="mb-3 form-check">
+          <div class="mb-3">
+            <label for="exampleInputPassword1" class="form-label">Password</label>
+            <input type="password" class="form-control" id="pw" required required required placeholder="password">
+          </div>
+
+          <!-- <div class="mb-3 form-check">
               <input type="checkbox" class="form-check-input" id="exampleCheck1">
               <label class="form-check-label" for="exampleCheck1">Check me out</label>
             </div> -->
 
-            <div class="text-center mb-4">  
-                <button type="submit" class="btn btn-success">Submit</button>
-                <button type="submit" class="btn btn-success">Cancel</button>
-            </div>
-
-
-          
-          </form>
+          <div class="text-center mb-4">
+            <button type="submit" class="btn btn-success">Submit</button>
+            <button type="submit" class="btn btn-success">Cancel</button>
           </div>
-        </div>
+
+
+
+        </form>
       </div>
-    
-        
+    </div>
+  </div>
+
+
 
 </body>
+
 </html>
 
- <script src="js/bootstrap.bundle.min.js"></script>
-  
-  <script src="js/menu.js"></script>
+<script src="js/bootstrap.bundle.min.js"></script>
+
+<script src="js/menu.js"></script>
